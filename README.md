@@ -9,6 +9,9 @@ Final Result:
 
 ![photo_2020-04-18_18-29-17](https://user-images.githubusercontent.com/48888681/79671695-d9623b00-81a2-11ea-9259-578b867f5593.jpg?h=400)
 
+![20200418_183706](https://user-images.githubusercontent.com/48888681/79672054-ec760a80-81a4-11ea-8a7d-ac3f500fba47.gif)
+
+
 ## User Stories
 
 -   [x] User can see a box which has a `border-radius` property applied to it

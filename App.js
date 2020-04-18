@@ -1,36 +1,68 @@
 import * as React from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-
-const instructions = Platform.select({
-  ios: `Press Cmd+R to reload,\nCmd+D or shake for dev menu`,
-  android: `Double tap R on your keyboard to reload,\nShake or press menu button for dev menu`,
-});
+import {StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>Welcome to React Native!</Text>
-      <Text style={styles.instructions}>To get started, edit App.js</Text>
-      <Text style={styles.instructions}>{instructions}</Text>
+      <Text style={styles.title}>Border Radius Previewer</Text>
+
+      <View style={styles.a}>  
+
+        <View style={styles.inputsView}>
+          <TextInput style={[styles.input]}></TextInput>         
+          <TextInput style={[styles.input]}></TextInput>    
+        </View>
+
+        <View style={[styles.form]}></View> 
+
+        <View style={styles.inputsView}>
+          <TextInput style={[styles.input]}></TextInput> 
+          <TextInput style={[styles.input]}></TextInput> 
+        </View>
+
+      </View>
+
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+     flex: 1, 
+     justifyContent: 'center',
+     alignItems: 'center',
+    backgroundColor: '#212121',
   },
-  welcome: {
+  title: {
     fontSize: 20,
+    justifyContent: 'flex-start',
     textAlign: 'center',
     margin: 10,
+    color: '#59dbff',
   },
-  instructions: {
+  form:{
+    width: 180,
+    height: 180,
+    borderWidth: 1,
+    borderColor: "#606060", 
+  },
+  input:{
+    margin: 10,
     textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    color: 'white',
+    width: 40,
+    height: 30,
+    borderWidth: 1,
+    borderColor: "#606060", 
   },
+  a:{
+    flexDirection: "row",
+  },
+  inputsView: {
+    marginHorizontal: 10,
+    justifyContent: 'space-between',
+  
+  },
+
+
 });

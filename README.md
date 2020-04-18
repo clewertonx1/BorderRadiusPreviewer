@@ -3,7 +3,6 @@
 idea from: https://github.com/florinpop17/app-ideas
 **Tier:** 1-Beginner
 
-A simple Border Radius Previewer in React native.
 The border-radius property can have multiple values changed. Preview how the shape looks while changing these values.
 
 ## User Stories

@@ -7,6 +7,7 @@ The border-radius property can have multiple values changed. Preview how the sha
 
 ### Final Result: 
 
+:
 <img src="https://user-images.githubusercontent.com/48888681/79671695-d9623b00-81a2-11ea-9259-578b867f5593.jpg" width="270" height="585">
 <img src="https://user-images.githubusercontent.com/48888681/79672054-ec760a80-81a4-11ea-8a7d-ac3f500fba47.gif" width="270" height="585">
 
